@@ -1,5 +1,5 @@
 body{
-    background-color: #e4e6eb;
+    background-color: #ccd7f7;
     font-family: 'Assistant', sans-serif;
     color: #071c4d;
 }
@@ -145,4 +145,100 @@ body{
             }
         }
     }
-    
+
+    //Network
+.section-network {
+    background-color: #fff;
+    margin-top: -190px;
+    padding-top: 240px;
+    padding-bottom: 50px;
+
+
+    h2 {
+        font-family: 'Playfair Display', serif;
+        font-weight: bold;  
+        font-size: 40px;
+    }
+    p {
+        font-size: 18px;
+    }
+    img {
+        max-width: 100%;
+    }
+}
+
+//text
+
+.section-testimonial-headling {
+    background : linear-gradient(#ffffff 0%, #ccd7f7 100%);
+    padding-top: 50px;
+    min-height: 506px;
+
+    h2 {
+        font-family: 'Playfair Display', serif;
+        font-weight: bold;
+        font-size: 40px;
+    }
+    p {
+        font-size: 18px;
+    }
+}
+ //cardtestimonial
+.section-testimonial-content {
+    margin-top: -300px;
+    padding-bottom: 50px;
+
+    .card-testimonial {
+        padding: 40px 20px 10px;
+        border-radius: 11px;
+        margin-bottom: 20px;
+
+        .testimonial-content {
+            min-height: 380px;
+        }
+        h3 {
+            font-size: 22px;
+        }
+
+        .testimonial {
+            font-weight: 200;
+            font-size: 26px;
+            color: #6e6e6e;
+            min-height: 180px;
+        }
+        .trip-to {
+            font-weight: normal;
+            font-size: 22px;
+            color: #6e6e6e;
+        }
+        hr{
+            margin-left: -20px;
+            margin-right: -20px;
+        }
+    }
+
+    .btn-get-started{
+        background-color: #ff9e53;
+        color:#ffffff;
+
+        & :hover{
+            background-color: #ffaa69;
+            color: #ffffff;
+        }
+    }
+    .btn-need-help{
+        background-color: #f2f2f2;
+        color:#c3c3c3;
+
+        & :hover{
+            background-color: #fafafa;
+            color: #c3c3c3;
+        }
+    }
+}
+
+.section-footer {
+    a{
+        color: #071c4d;
+    }
+}
